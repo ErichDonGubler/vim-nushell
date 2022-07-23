@@ -29,7 +29,6 @@ syntax region nushellString start=/\v`/ skip=/\v\\./ end=/\v`/
 syntax region nushellString start=/\v'/ skip=/\v\\./ end=/\v'/
 NushellHiLink nushellString String
 
-
 delcommand NushellHiLink
 
 let b:current_syntax = "nushell"
